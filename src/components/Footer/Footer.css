@@ -1,0 +1,46 @@
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    
+  }
+  
+  .area{
+    max-width: 15rem;
+
+  }
+  
+  .menu-list li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .menu-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu-list li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .menu-list li a:hover {
+    text-decoration: underline;
+  }
+  .text-light {
+    color: #9e9393a6; /* Adjusted text color */
+  }
+
+  .icons{
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-list li {
+      display: block; /* Change to block display at smaller screens */
+      margin-right: 0; /* Remove right margin */
+      margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+  }
+  

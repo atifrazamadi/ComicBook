@@ -1,0 +1,45 @@
+.club-area{
+padding: 80px 0;
+}
+
+.card-clud-custom {
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .cover img {
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%; 
+  }
+  
+  .dp img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+  }
+
+  .card-clud-custom:hover .cover img{
+    border-color: darkcyan;
+    transition: .7s;
+
+  }
+
+  .c-title{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 20px;
+  }
+
+  
+
