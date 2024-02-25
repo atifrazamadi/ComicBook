@@ -6,16 +6,8 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div >
-   <header className="position-relative"> 
-        <div className=" container container-txt" > 
-          <h1 > 
-            Lough more, <br /> worry less
-          </h1>
-          <p >A quick brown fox jumpes over the lazy dog</p>
-        </div>
-      </header>
-   
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent">
+   <header >  
+      <nav className="navbar navbar-expand-lg navbar-light bg-light  bg-transparent">
         <div className="container">
           <a className="navbar-brand fw-bold " href="/">
             Comic<spam className="text-danger">Book</spam>
@@ -66,14 +58,23 @@ const NavBar = () => {
                 </a>
               </li>
             </ul>
-            <button className="ms-4 btn btn-danger ">Getting Started</button>
+            <button className=" btn btn-danger ">Getting Started</button>
           </div>
           
         </div>
       </nav>
-      
+
+      <div className=" container container-txt" > 
+          <h1 > 
+            Lough more, <br /> worry less
+          </h1>
+          <p >A quick brown fox jumpes over the lazy dog</p>
+        </div>
+      </header>
     </div>
   );
 };
 
 export default NavBar;
+
+

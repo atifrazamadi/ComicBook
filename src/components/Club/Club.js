@@ -5,19 +5,19 @@ const Club = ({backgroundImage}) => {
   return (
     <div className='club-area'>
               <div className="row mt-5">
-        <div className="col-md-4 ">
-        <h1 className="text-dark  text-capitalize mb-5">clubs</h1>
+        <div className="col-md-10 ">
+        <h1 className="text-dark  text-capitalize mb-3">clubs</h1>
         </div>
 
         
 
-        <div className="col-md-8 text-end">
+        <div className="col-md-2 ">
           <button type="button" class="btn btn-outline-primary">
             View All Events <strong>→</strong>
           </button>
         </div>
       </div>
-      <div className='row'>
+      <div className='row mt-3'>
         <div className='col-md-3'>
           <div className='card card-clud-custom'>
             <div className='cover'>

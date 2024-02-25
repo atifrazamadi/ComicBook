@@ -4,13 +4,13 @@ const Comedian = (props) => {
   return (
     <div className='comedian-area'>
         <div className="row ">
-        <div className="col-md-6">
+        <div className="col-md-10">
           <h1 className="text-dark  text-capitalize mb-5">feature comedians</h1>
         </div>
 
         
 
-        <div className="col-md-6 text-end">
+        <div className="col-md-2 ">
           <button type="button" class="btn btn-outline-primary">
             View All Events <strong>→</strong>
           </button>

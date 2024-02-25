@@ -16,3 +16,14 @@
 .card-img-custom{
     border-radius: 20px 20px 0px 0px;
 }
+
+
+@media (max-width: 600px) {
+    
+    .card-custom{
+        margin-top: 60px;
+    }
+    .btn-custom{
+        margin-bottom: 20px;
+    }
+}

@@ -9,8 +9,8 @@ const EventItem = ({ backgroundImage }) => {
         <h1 className="text-dark  text-capitalize ">events near you</h1>
         </div>
 
-        <div className=" col-md-4 ">
-            <div className="">
+        <div className=" col-md-6 ">
+            <div className=" mr-2">
           <button className=" btn btn-primary rounded-pill btn-custom">
             <i class="fa-solid fa-caret-up me-3 "></i> Punjab <t />
             <i class="fa-solid fa-location-pin mt-0 ms-3"></i>
@@ -18,7 +18,7 @@ const EventItem = ({ backgroundImage }) => {
           </div>
         </div>
 
-        <div className="col-md-4 text-end">
+        <div className="col-md-2 ">
           <button type="button" class="btn btn-outline-primary">
             View All Events <strong>→</strong>
           </button>
