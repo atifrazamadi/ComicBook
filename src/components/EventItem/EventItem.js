@@ -37,7 +37,7 @@ const EventItem = ({ backgroundImage }) => {
                 <p className="text-black">The Roit Cloub</p>
               </div>
 
-              <div class="flex-grow-1 ms-auto"></div>
+              
               <div class="flex-shrink-1 p-2 ms-auto">
                 <i class="fa-solid fa-share-nodes icons"></i>
                 <i class="fa-regular fa-heart icons"></i>
@@ -45,7 +45,20 @@ const EventItem = ({ backgroundImage }) => {
             </div>
 
             <div class="card-body">
+            <div class="  d-flex flex-wrap mb-3">
+              <div class="flex-grow-1 ">
               <h5 class="card-title">Card Title</h5>
+              </div>
+              
+              <div class="flex-shrink-1  ms-auto">
+              <h5 class="card-title">$20</h5>
+              </div>
+            </div>
+           
+              
+              
+              
+
 
               <div class="d-flex justify-content-between align-items-center">
                 <strong class="text-primary">
@@ -79,7 +92,15 @@ const EventItem = ({ backgroundImage }) => {
             </div>
 
             <div class="card-body">
+            <div class="  d-flex flex-wrap mb-3">
+              <div class="flex-grow-1 ">
               <h5 class="card-title">Card Title</h5>
+              </div>
+              
+              <div class="flex-shrink-1  ms-auto">
+              <h5 class="card-title">$20</h5>
+              </div>
+            </div>
 
               <div class="d-flex justify-content-between align-items-center">
                 <strong class="text-primary">
@@ -115,7 +136,15 @@ const EventItem = ({ backgroundImage }) => {
             </div>
 
             <div class="card-body">
+            <div class="  d-flex flex-wrap mb-3">
+              <div class="flex-grow-1 ">
               <h5 class="card-title">Card Title</h5>
+              </div>
+              
+              <div class="flex-shrink-1  ms-auto">
+              <h5 class="card-title">$20</h5>
+              </div>
+            </div>
 
               <div class="d-flex justify-content-between align-items-center">
                 <strong class="text-primary">
@@ -154,7 +183,15 @@ const EventItem = ({ backgroundImage }) => {
             </div>
 
             <div class="card-body">
+            <div class="  d-flex flex-wrap mb-3">
+              <div class="flex-grow-1 ">
               <h5 class="card-title">Card Title</h5>
+              </div>
+              
+              <div class="flex-shrink-1  ms-auto">
+              <h5 class="card-title">$20</h5>
+              </div>
+            </div>
 
               <div class="d-flex justify-content-between align-items-center">
                 <strong class="text-primary">
