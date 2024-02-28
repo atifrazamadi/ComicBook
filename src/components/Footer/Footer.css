@@ -7,10 +7,25 @@
   }
   
   .area{
-    max-width: 15rem;
+    max-width: 19rem;
 
   }
+  /* .form-control{
+    border: none;
+    background-color: #424d5f;
+    color:#767C8E
+    
+  }
+  .form-control:hover {
+    border: none;
+    background-color: #424d5f;
+  }
   
+  .form-control:hover:focus {
+    border: none;
+    background-color: #424d5f;
+  } */
+
   .menu-list li {
     display: inline-block;
     margin-right: 15px;
@@ -38,9 +53,11 @@
   
   @media (max-width: 768px) {
     .menu-list li {
-      display: block; /* Change to block display at smaller screens */
-      margin-right: 0; /* Remove right margin */
-      margin-bottom: 10px; /* Add bottom margin for spacing */
+      display: block; 
+      margin-right: 0; 
+      margin-bottom: 10px; 
     }
   }
+  
+  
   

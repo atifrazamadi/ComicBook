@@ -7,11 +7,11 @@ const Footer = () => {
     <footer className="bg-dark text-light py-4">
       <div className="container">
         <div className="row ">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <h5 >Comic<spam className="text-danger ">Book</spam></h5>
           </div>
-          <div className="col-md-8 d-flex   ">
-            <ul className="list-unstyled menu-list text-center text-md-end mb-0 me-md-auto">
+          <div className="col-md-5  ">
+            <ul className="list-unstyled menu-list text-center  mb-0 me-md-auto">
               <li>
                 <a className="text-light" href="/">
                   Privacy Policey
@@ -33,10 +33,14 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-            <div className="input-group mb-3 align-items-center area">
+            
+          </div>
+          <div className="input-group col-md-4    area">
+            
               <input
                 type="email"
                 className="form-control"
+                
                 placeholder="Enter your email"
                 aria-label="Enter your email"
                 aria-describedby="button-addon2"
@@ -48,8 +52,8 @@ const Footer = () => {
               >
                 Subscribe
               </button>
+
             </div>
-          </div>
         </div>
       </div>
       <hr className="container"></hr>

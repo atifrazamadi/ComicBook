@@ -1,6 +1,6 @@
 import React from "react";
 import "./Event.css";
-import backgroundImage from "./background.jpg";
+import backgroundImage from "../../assets/background.jpg";
 import Comedian from "../Comedian/Comedian";
 import EventItem from "../EventItem/EventItem";
 import Club from "../Club/Club";

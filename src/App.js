@@ -3,6 +3,7 @@ import Events from "./components/Events/Events";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/Header/NavBar";
 
+
 function App() {
   return (
     <div className="App">

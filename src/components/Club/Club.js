@@ -29,7 +29,12 @@ const Club = ({backgroundImage}) => {
               <img src={backgroundImage} alt="Display " />
             </div>
             <div className='text-center container'>
-              <h2 className='c-title'>Person Oner</h2>
+              <h2 className='c-title'>The Roit Club</h2>
+              <div className="d-flex justify-content-center align-items-center">
+                <strong className="text-dark">
+                  Fri Sep 20 | 11:00 PM - 11:30 Pm
+                </strong>
+              </div>
               <p className='text-dark ps-4 pe-4 '>A quick brown fox jumps over the lazy dog</p>
             </div>
 
@@ -56,7 +61,13 @@ const Club = ({backgroundImage}) => {
               <img src={backgroundImage} alt="Display " />
             </div>
             <div className='text-center container'>
-              <h2 className='c-title'>Person Oner</h2>
+              <h2 className='c-title'>The Roit Club</h2>
+
+              <div className="d-flex justify-content-center align-items-center">
+                <strong className="text-dark">
+                  Fri Sep 20 | 11:00 PM - 11:30 Pm
+                </strong>
+              </div>
               <p className='text-dark ps-4 pe-4 '>A quick brown fox jumps over the lazy dog</p>
             </div>
 
@@ -79,7 +90,12 @@ const Club = ({backgroundImage}) => {
               <img src={backgroundImage} alt="Display " />
             </div>
             <div className='text-center container'>
-              <h2 className='c-title'>Person Oner</h2>
+              <h2 className='c-title'>The Roit Club</h2>
+              <div className="d-flex justify-content-center align-items-center">
+                <strong className="text-dark">
+                  Fri Sep 20 | 11:00 PM - 11:30 Pm
+                </strong>
+              </div>
               <p className='text-dark ps-4 pe-4 '>A quick brown fox jumps over the lazy dog</p>
             </div>
 
@@ -102,7 +118,14 @@ const Club = ({backgroundImage}) => {
               <img src={backgroundImage} alt="Display " />
             </div>
             <div className='text-center container'>
-              <h2 className='c-title'>Person Oner</h2>
+              <h2 className='c-title'>The Roit Club</h2>
+
+              <div className="d-flex justify-content-center align-items-center">
+                <strong className="text-dark">
+                  Fri Sep 20 | 11:00 PM - 11:30 Pm
+                </strong>
+              </div>
+            
               <p className='text-dark ps-4 pe-4 '>A quick brown fox jumps over the lazy dog</p>
             </div>
 

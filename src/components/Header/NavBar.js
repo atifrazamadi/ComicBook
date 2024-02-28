@@ -1,13 +1,22 @@
-import React from "react";
+import React,{useState} from "react";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./NavBar.css";
 
 const NavBar = () => {
+
+  const [isCollapseEnable, setIsCollapseEnable] = useState(false);
+
+  const toggleMenu = () => {
+    setIsCollapseEnable(!isCollapseEnable);
+  };
+
+
   return (
     <div >
-   <header >  
-      <nav className="navbar navbar-expand-lg navbar-light bg-light  bg-transparent">
+   <header  >  
+      <nav className={`navbar navbar-expand-lg navbar-dark bg-dark  ${isCollapseEnable?"": "bg-transparent"}`}>
         <div className="container">
           <a className="navbar-brand fw-bold " href="/">
             Comic<spam className="text-danger">Book</spam>
@@ -20,6 +29,7 @@ const NavBar = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={toggleMenu}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -31,21 +41,21 @@ const NavBar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link " href="/">
                   Comedian
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link " href="/">
                   Shows
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link " href="/">
                   About CB
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ">
                 <a className="nav-link" href="/">
                   Contact
                 </a>
@@ -58,14 +68,14 @@ const NavBar = () => {
                 </a>
               </li>
             </ul>
-            <button className=" btn btn-danger ">Getting Started</button>
+            <button className=" btn btn-danger nav-button">Getting Started</button>
           </div>
           
         </div>
       </nav>
 
-      <div className=" container container-txt" > 
-          <h1 > 
+      <div className=" container container-txt " > 
+          <h1> 
             Lough more, <br /> worry less
           </h1>
           <p >A quick brown fox jumpes over the lazy dog</p>
