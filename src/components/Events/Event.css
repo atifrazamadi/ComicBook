@@ -1,15 +1,57 @@
 
-.circule{
-width: 20px;
-height: 20px;
-background-color: deepskyblue;
-border-radius: 50%;
-}
 
-.icons{
-    margin-left: 1rem;
-}
+.comedian-area{
+  padding: 80px 0;
+  }
+.event-item-area {
+    padding: 80px 0;
+  }
 
+  .club-area{
+    padding: 80px 0;
+    }
+    
+
+  .btn-custom {
+  
+    font-family: 'Avenir Next LT Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    height: 55px;
+    background: #6C2BD9;
+    color: #ffffff;
+  }
+
+    .location-style{
+      margin-top: -10px;
+      height: 50%;
+    }
+
+    .dropdownicon-style{
+      
+      height: 110%;
+    }
+
+
+
+  /* .fa-caret-down{
+      transform: rotate(180deg);
+  
+  } */
+  
+  
+  
+   
+  
+ 
+  @media (max-width: 600px) {
+   
+    .btn-custom {
+      margin-bottom: 20px;
+    }
+  }
+  
 
 
 

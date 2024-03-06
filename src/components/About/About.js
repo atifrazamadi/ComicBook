@@ -6,11 +6,11 @@ const About = () => {
   return (
     <div className='container'>
         <div className='info-card bg-primary py-4 mb-4  rounded'>
-            <div className='text-center mt-5 mb-5'>
-                <h3 className='text-white '>Signup at Riot club</h3>
-                <p>A quick brown fox jumpes over the lazy <br/>a quick brown fox jumpes over the lazy dog</p>
-                <button className='btn btn-light fw-bold mt-5'>Getting started</button>
-                <p className='mt-3 '>instant signup.No credit Card required</p>
+            <div className='text-center text-light mt-5 '>
+                <p className='about-title'>Signup at Riot club</p>
+                <p className='about-text'>Lörem ipsum tyvis pred astrobel, sorat. Antibes rorade i tyll resybelt. Gigade vaskapet hubot. Bad ron medan astrocism. Tuktig vin.</p>
+                <button className='btn btn-light  about-custom '>Getting started</button>
+                <p className='about-info mt-1'>instant signup.No credit Card required</p>
 
             </div> 
 

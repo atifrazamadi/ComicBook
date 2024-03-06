@@ -6,14 +6,25 @@
 
 .navbar-light .navbar-brand {
   color: white;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
 }
 .nav-button {
-  font-family: inter, sans-serif;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
 }
-.nav-link{
-    color: white;
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+}
+.nav-link {
+  color: white;
 }
 
 header {
@@ -22,48 +33,65 @@ header {
   min-height: 440px;
   background-size: cover;
   background-position: center;
-  background-image: url("../../assets/background.jpg");
+  background-image: url("../../assets/background.png");
 }
 
 .navbar {
   z-index: 1; /* Adjust the z-index value as needed */
-  
 }
 
 .container-txt {
-  position: absolute;
-  padding-top: 35rem;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  
+  
+  margin-top: 10%;
+  margin-left: 0.7rem;
+  
+
+  font-family: "Inter";
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  width: 30%;
+  /* or 27px */
+
+  color: #ffffff;
+}
+.cover-item {
+  align-self: center;
+  justify-self: center;
+}
+.cover-item-text {
+  align-self: center;
+  justify-self: center;
 }
 
 .navcondition {
   padding-top: 10rem;
   padding-left: 10rem;
 }
-.container {
-  top: 10%;
 
-  text-align: start;
-}
 
-.container h1,
-.container p {
-  color: white;
+
+.nav-costom-color {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 58px */
+
+  color: #ffffff;
 }
 
 @media (max-width: 700px) {
   .container-txt {
-    padding-top: 49rem;
+    width: 80%; /* Adjust width for smaller screens */
+    margin-top: 0; /* Remove top margin */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    text-align: center; /* Center align text */
+    padding-top: 10rem; /* Add padding to create space */
   }
 }
-
-
-
-
-
-
-
-
