@@ -1,89 +1,82 @@
-.area{
-  max-width: 27rem;
+.area {
+  max-width: 20rem;
+  
 }
+
 .menu-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    
-    
-  }
-  
-  .input-group{
-color:#a98787;
-  }
-  .custom-input-design{
-    color: #9CA3AF;
-    box-sizing: border-box;
-    background: #374151;
-    border: 1px solid #4b5563;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 8px 0px 0px 8px;
-    border-left:none ;
-  }
-  .custom-input-design::placeholder {
-    color: #a98787;
-  }
-  .custom-input-design:focus {
-    background: #374151; 
-    outline: none; 
-    border: none;
-    box-shadow: none;
-    color: #9CA3AF;
-  }
-  
-  
- 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+menu-list:hover{
+  color: #9ca3af;
+}
+
+
+
+.input-group {
+  color: #a98787;
+}
+.custom-input-design {
+  color: #9ca3af;
+  box-sizing: border-box;
+  background: #374151;
+  border: 1px solid #4b5563;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px 0px 0px 8px;
+  border-left: none;
+}
+.custom-input-design::placeholder {
+  color: #a98787;
+}
+.custom-input-design:focus {
+  background: #374151;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  color: #9ca3af;
+}
+
+.menu-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu-list li:last-child {
+  margin-right: 0;
+}
+
+.menu-list li a {
+  color: #a98787;
+  text-decoration: none;
+}
+.costom-color {
+  color: #a98787;
+}
+
+.menu-list li a:hover {
+  color: #e0c8c8;
+}
+
+.icons {
+  margin-left: 20px;
+  color: white;
+}
+
+
+
+/* @media (max-width: 768px) {
   .menu-list li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  .menu-list li:last-child {
+    display: block;
     margin-right: 0;
+    margin-bottom: 1px;
   }
-  
-  .menu-list li a {
-    color:#a98787;
-    text-decoration: none;
+/* } */
+@media (max-width: 768px) {
+  .customize-mb {
+  margin-bottom: 10rem;
+    text-align: center;
   }
-  .costom-color{
-    color:#a98787;
-    
-  }
-  
-  .menu-list li a:hover {
-    color: #e0c8c8;
-    
-  }
-  
-
-  .icons{
-    margin-left: 20px;
-    color: white;
-  }
-  
-  @media (max-width: 768px) {
-    .menu-list li {
-      display: block; 
-      margin-right: 0; 
-      margin-bottom: 10px; 
-    }
-  }
-  @media (max-width: 600px) {
-    .customize-mb {
-      margin-bottom: 10%;
-      text-align: center;
-    }
-  }
-  
- 
-  
-  
-
-  
-  
-  
-  
-  
-  
+} 

@@ -3,6 +3,7 @@ import React,{useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./NavBar.css";
+// import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
@@ -17,7 +18,7 @@ const NavBar = () => {
   return (
     
     <div className="container ">
-   <header>  
+   <section className="header" >  
     
       <nav className={`navbar navbar-expand-lg  navbar-dark bg-dark  ${isCollapseEnable?"": "bg-transparent"}`}>
         <div className="container ">
@@ -37,7 +38,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav  mx-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav  ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active " aria-current="page" href="/">
                   Events
@@ -91,7 +92,7 @@ const NavBar = () => {
       </div>
           <p   >Lörem ipsum rena migikar makrosade vevil, teration. Tede ade. Farer ol ifall tred det osöning.</p>
         </div>
-      </header>
+      </section>
     </div>
   );
 };

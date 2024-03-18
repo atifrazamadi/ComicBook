@@ -1,57 +1,49 @@
-
-
-.comedian-area{
-  padding: 80px 0;
-  }
 .event-item-area {
-    padding: 80px 0;
-  }
+  padding: 80px 0;
+}
+.event-heading {
+  color: black;
+  font-weight: 600;
+  font-size: 35px;
+  height: 55px;
+}
 
-  .club-area{
-    padding: 80px 0;
-    }
-    
+.comedian-area {
+  padding: 80px 0;
+}
 
-  .btn-custom {
-  
-    font-family: 'Avenir Next LT Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    height: 55px;
-    background: #6C2BD9;
-    color: #ffffff;
-  }
+.club-area {
+  padding: 80px 0;
+}
 
-    .location-style{
-      margin-top: -10px;
-      height: 50%;
-    }
-
-    .dropdownicon-style{
-      
-      height: 110%;
-    }
-
+.btn-custom {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  height: 55px;
+  width: 13rem;
+  background: #6c2bd9;
+  color: #ffffff;
+}
 
 
-  /* .fa-caret-down{
+.location-style {
+
+  height: 50%;
+}
+
+.dropdownicon-style {
+  height: 100%;
+}
+
+/* .fa-caret-down{
       transform: rotate(180deg);
   
   } */
-  
-  
-  
-   
-  
- 
-  @media (max-width: 600px) {
-   
-    .btn-custom {
-      margin-bottom: 20px;
-    }
+
+@media (max-width: 768px) {
+  .btn-custom {
+    margin-bottom: 20px;
   }
-  
-
-
-
+}

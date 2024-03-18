@@ -2,18 +2,22 @@ import About from "./components/About/About";
 import Events from "./components/Events/Events";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/Header/NavBar";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
+
+
+
+      <main className="header">
         <NavBar/>
         <Events/>
         <About/>
         <Footer/>
-      </header>
-    </div>
+      </main>
+    </>
   );
 }
 

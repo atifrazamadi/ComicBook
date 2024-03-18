@@ -1,7 +1,11 @@
 .navbar-light .navbar-nav .nav-link {
   color: white;
   font-size: 1.4rem;
-  font-family: inter, sans-serif;
+  font-family: "Inter";
+}
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
 .navbar-light .navbar-brand {
@@ -27,13 +31,16 @@
   color: white;
 }
 
-header {
+.header {
   z-index: 0;
   height: 100vh;
-  min-height: 440px;
+  /* min-height: 440px; */
   background-size: cover;
+
+
   background-position: center;
   background-image: url("../../assets/background.png");
+  
 }
 
 .navbar {
@@ -85,13 +92,13 @@ header {
   color: #ffffff;
 }
 
-@media (max-width: 700px) {
+@media  (max-width: 768px) {
   .container-txt {
     width: 80%; /* Adjust width for smaller screens */
-    margin-top: 0; /* Remove top margin */
+    margin-top: 45%; /* Remove top margin */
     margin-left: auto; /* Center horizontally */
     margin-right: auto; /* Center horizontally */
     text-align: center; /* Center align text */
-    padding-top: 10rem; /* Add padding to create space */
+    
   }
 }

@@ -14,7 +14,7 @@ const Events = () => {
       <div className="event-item-area">
         <div className="row mb-5">
           <div className="col-md-4">
-            <h1 className="text-dark text-capitalize ">events near you</h1>
+            <h2 className=" text-capitalize event-heading ">events near you</h2>
           </div>
 
           <div className=" col-md-6 ">
@@ -33,7 +33,8 @@ const Events = () => {
                   />
                   {/* <i className="fa-solid fa-caret-down  ms-3 me-3"></i> */}
                   punjab
-                  <img className="ms-3 location-style" src={location} alt="" />
+                  <img className="ms-5 location-style" src={location} alt="" />
+                  {/* <i class="fas fa-map-marker-alt ms-5 location-style"></i> */}
                   {/* <i className="fa-solid fa-location-pin ms-3  "></i> */}
                   {/* <i className="fa-solid fa-caret-up ms-3 d-none"></i> */}
                 </button>

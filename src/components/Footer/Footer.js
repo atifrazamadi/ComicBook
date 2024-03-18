@@ -2,18 +2,17 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
 
+
 const Footer = () => {
   return (
-    <footer className="bg-dark  py-4">
+    <section className="bg-dark  py-4 view">
       <div className="bg-dark py-4">
         <div className="container">
           <div className="row">
-            <div className="col-md-3">
-              <h5 className="text-light">
-                Comic<spam className="text-danger">Book</spam>
-              </h5>
+            <div className="col-md-2 d-flex justify-content-md-start justify-content-center  ">
+              <h5 className="text-light">ComicBook</h5>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6  ms-auto d-flex justify-content-md-center justify-content-center ">
               <ul className="list-unstyled menu-list  mb-0 ">
                 <li>
                   <a href="/">Privacy Policy</a>
@@ -29,7 +28,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="input-group  col-md-4 area   ">
+            <div className="  col-md-3 area input-group ms-auto    d-flex justify-content-md-end justify-content-center    ">
               <span className="input-group-text custom-input-design ">
                 <i className="fas fa-envelope"></i>
               </span>
@@ -52,25 +51,27 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="container text-light"></hr>
+      <hr className="container text-light"/>
       <div className="container customize-mb">
         <div className="row ">
-          <div className="col-md-4 ">
+          <div className="col-md-4  ">
             <p className="costom-color">
               &copy; 2022 ComicBook, inc. All rights reserved .
             </p>
           </div>
-          <div className="col-md-8">
-            <ul className=" menu-list text-end">
-              <i class="fab fa-github fa-2x icons"></i>
-              <i class="fab fa-twitter-square fa-2x icons"></i>
-              <i class="fa-brands fa-instagram fa-2x icons"></i>
-              <i class="fab fa-facebook-square fa-2x icons"></i>
+          <div className="col-md-8 ">
+            <ul className=" menu-list d-flex justify-content-md-end justify-content-center ">
+              <i className="fab fa-github fa-1x icons"></i>
+            
+              <i class="fa-brands fa-twitter fa-1x icons"></i>
+
+              <i className="fa-brands fa-dribbble fa-1x icons"></i>
+              <i className="fa-brands fa-facebook-f fa-1x icons"></i>
             </ul>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
   );
 };
 
